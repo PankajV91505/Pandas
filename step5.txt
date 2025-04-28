@@ -1,0 +1,24 @@
+1 - select specific cloumns
+2 - filter rows 
+3 - combine multiple conditions
+
+
+1 - square brackets 
+2 - boolen conditions
+
+selecting cloumns
+
+1- a series
+2 - dataframe multiple cloumns of data
+
+cloumn = df["cloumn Name"]
+subset = df["Cloumn1","Cloumn2","..."]
+
+filtering rows
+boolen indexing
+
+#based on a single conditions
+filterred_Rows = df[df["salary"]>50000]
+
+#based on a multiple conditions
+filterred_Rows = df[(df["salary"]>50000) & (df["Cloumn2] < 80000)]
